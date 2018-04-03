@@ -1,16 +1,16 @@
 {
-  "name": "react-street-view",
+  "name": "@boxgames/react-street-view",
   "version": "1.1.1",
-  "description": "react-streetview",
+  "description": "@boxgames/react-street-view",
   "main": "lib/ReactStreetview.js",
   "author": "Oliverio Alonso",
-  "homepage": "https://github.com/elcsiga/react-street-view",
+  "homepage": "https://github.com/boxgames1/react-street-view",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elcsiga/react-street-view.git"
+    "url": "git+https://github.com/boxgames1/react-street-view.git"
   },
   "bugs": {
-    "url": "https://github.com/elcsiga/react-street-view/issues"
+    "url": "https://github.com/boxgames1/react-street-view/issues"
   },
   "dependencies": {
     "classnames": "^2.1.2",
