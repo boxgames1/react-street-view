@@ -11,7 +11,7 @@ Live demo: [elcsiga.github.io/react-streetview](http://elcsiga.github.io/react-s
 The easiest way to use react-streetview is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
 
 ```
-npm install react-streetview --save
+npm install @boxgames/react-street-view --save
 ```
 
 You can also use the standalone build by including `dist/react-streetview.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
