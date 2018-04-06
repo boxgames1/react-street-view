@@ -72,7 +72,7 @@ ReactStreetview.defaultProps = {
 function mapScriptsToProps(props) {
 	var googleMapsApiKey = props.apiKey;
 	var libraries = "";
-	if (libraries!=""){
+	if (props.libraries!=""){
 		libreries="&libraries="+props.libraries;	
 	}
 	return {
