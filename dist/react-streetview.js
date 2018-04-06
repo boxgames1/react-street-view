@@ -341,7 +341,7 @@ function mapScriptsToProps(props) {
 	var googleMapsApiKey = props.apiKey;
 	var libraries = "";
 	if (props.libraries!=""){
-		libreries="&libraries="+props.libraries;	
+		libraries="&libraries="+props.libraries;	
 	}
 	return {
 		googleMaps: {
