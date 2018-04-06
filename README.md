@@ -2,10 +2,6 @@
 
 Simple React.js component for Google Street View
 
-## Demo & Examples
-
-Live demo: [elcsiga.github.io/react-streetview](http://elcsiga.github.io/react-streetview/)
-
 ## Installation
 
 The easiest way to use react-streetview is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
