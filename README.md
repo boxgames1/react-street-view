@@ -36,6 +36,9 @@ class App extends React.Component {
 			zoom: 1
 		};
 
+		//Google Libraries
+		const libraries="places";
+
 		return (
 			<div style={{
 				width: '800px',
@@ -44,6 +47,7 @@ class App extends React.Component {
 			}}>
 				<ReactStreetview
 					apiKey={googleMapsApiKey}
+					libraries={libraries}
 					streetViewPanoramaOptions={streetViewPanoramaOptions}
 				/>
 			</div>

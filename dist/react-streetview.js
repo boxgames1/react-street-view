@@ -339,10 +339,14 @@ ReactStreetview.defaultProps = {
 
 function mapScriptsToProps(props) {
 	var googleMapsApiKey = props.apiKey;
+	var libraries = "";
+	if (libraries!=""){
+		libreries="&libraries="+props.libraries;	
+	}
 	return {
 		googleMaps: {
 			globalPath: 'google.maps',
-			url: 'https://maps.googleapis.com/maps/api/js?key=' + googleMapsApiKey,
+			url: 'https://maps.googleapis.com/maps/api/js?key=' + googleMapsApiKey + libraries,
 			jsonp: true
 		}
 	};

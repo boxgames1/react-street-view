@@ -1,6 +1,6 @@
 {
   "name": "@boxgames/react-street-view",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "@boxgames/react-street-view",
   "main": "lib/ReactStreetview.js",
   "author": "Oliverio Alonso",
