@@ -4,5 +4,6 @@ node_js:
 script:
   - npm run lint
   - npm install
+  - npm install -g gulp
   - npm test
   - npm run build
