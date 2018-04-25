@@ -27,7 +27,11 @@
     "react-dom": "^0.14.0"
   },
   "peerDependencies": {
-    "npm-check-updates": "^2.13.0"
+    "npm-check-updates": "^2.13.0",
+    "require-dir": "^1.0.0",
+    "graceful-fs": "^4.x",
+    "minimatch": "^3.0.2",
+    "connect": "^3.6.7"
   },
   "browserify-shim": {
     "react": "global:React"
