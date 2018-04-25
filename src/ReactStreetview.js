@@ -1,3 +1,4 @@
+/*eslint jsx-quotes: ["error", "prefer-single"]*/
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
@@ -50,7 +51,7 @@ class ReactStreetview extends React.Component {
 			style = {{
 				height: '100%'
 			}}
-		></div>;
+		/>;
 	}
 }
 
@@ -71,9 +72,9 @@ ReactStreetview.defaultProps = {
 
 function mapScriptsToProps(props) {
 	var googleMapsApiKey = props.apiKey;
-	var libraries = "";
-	if (props.libraries!=""){
-		libraries="&libraries="+props.libraries;	
+	var libraries = '';
+	if (props.libraries!=''){
+		libraries='&libraries='+props.libraries;	
 	}
 	return {
 		googleMaps: {
