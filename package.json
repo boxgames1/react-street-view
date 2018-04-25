@@ -32,7 +32,8 @@
     "require-dir": "^1.0.0",
     "graceful-fs": "^4.x",
     "minimatch": "^3.0.2",
-    "connect": "^3.6.7"
+    "connect": "^3.6.7",
+    "gulp-git": "^2.0.0" 
   },
   "browserify-shim": {
     "react": "global:React"
