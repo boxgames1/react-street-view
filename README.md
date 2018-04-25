@@ -1,5 +1,7 @@
 # react-streetview
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54660508c4d14345900aed542d62ffa4)](https://app.codacy.com/app/boxgames1/react-street-view?utm_source=github.com&utm_medium=referral&utm_content=boxgames1/react-street-view&utm_campaign=badger)
+
 Simple React.js component for Google Street View
 
 ## Installation
