@@ -1,4 +1,3 @@
-/*eslint jsx-quotes: ["error", "prefer-single"]*/
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
