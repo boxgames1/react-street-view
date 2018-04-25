@@ -3,5 +3,6 @@ node_js:
   - "8"
 script:
   - npm run lint
+  - npm install
   - npm test
   - npm run build
